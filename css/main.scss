@@ -1,0 +1,276 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Red Hat Display';
+    text-align: center;
+
+}
+
+:root {
+    --primary-blue:hsl(225, 100%, 94%);
+    --primary-bright-blue:hsl(245, 75%, 52%);
+
+    --very-pale-blue:hsl(225, 100%, 98%);
+    --desaturated-blue:hsl(224, 23%, 55%);
+    --dark-blue:hsl(223, 47%, 23%);
+
+
+
+
+
+}
+
+p {
+    font-size: 16px;
+}
+
+body {
+    background: var(--primary-blue);
+}
+
+.order-section {
+    background: url(/order-summary-component-main/images/pattern-background-desktop.svg);
+    background-repeat: repeat-x;
+    display: flex;
+    justify-content: center;
+    padding: 5em 2em 4.85em 2em;
+    
+    
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    
+    width: 80vw;
+
+    border-radius: 20px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+
+    .title {
+        font-weight: 900;
+        color: var(--dark-blue);
+        
+    }
+
+    .title-subhead {
+        font-weight: 500;
+        color: var(--desaturated-blue);
+    }
+
+    
+    
+}
+
+.inner-container {
+    
+    padding: 2em;
+}
+
+.image {
+    margin-left: auto;
+    border-radius: 20px 20px 0 0;
+    width: 80vw;
+    
+    
+}
+
+h1 {
+    margin-bottom: 20px;
+    
+}
+
+.square {
+    margin-top: 25px;
+    padding: 1em;
+    background: var(--very-pale-blue);
+    border-radius: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .annual {
+        width: max-content;
+        font-weight: 700;
+        color:var(--dark-blue)
+        
+    }
+
+    .annual-price {
+        font-weight: 700;
+        color: var(--desaturated-blue);
+    }
+
+    .change {
+        font-weight: 700;
+        color: var(--primary-bright-blue);
+            &:hover {
+                color: #6D64EC;
+                text-decoration: none;
+            }
+
+    }
+
+}
+
+.inner-square {
+    margin: auto 15px auto 15px;
+}
+
+.buttons {
+    display: block;
+    margin: 25px auto 5px auto;
+
+}
+
+#button-a {
+    background: var(--primary-bright-blue);
+    color: white;
+    padding: 1em;
+    border-radius: 13px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 12px 10px 5px var(--primary-blue);
+
+        &:hover {
+            background: #6D64EC;
+        }
+
+}
+
+#button-b {
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--desaturated-blue);
+        &:hover {
+            color: var(--dark-blue);
+        }
+
+}
+
+@media only screen and (min-width:600px) {
+    body {
+        background: var(--primary-blue);
+    }
+
+    .order-section {
+
+        background: url(/order-summary-component-main/images/pattern-background-desktop.svg);
+        background-repeat: repeat-x;
+    }
+
+    .container {
+        width: 60vw;
+    }
+
+    .image {
+        width:60vw;
+    }
+  
+    
+
+}
+
+@media only screen and (min-width:770px) {
+    body {
+        background: var(--primary-blue);
+    }
+
+    .order-section {
+
+        background: url(/order-summary-component-main/images/pattern-background-desktop.svg);
+        background-repeat: repeat-x;
+    }
+
+    .container {
+        width: 50vw;
+    }
+
+    .image {
+        width:50vw;
+    }
+  
+    
+
+}
+
+@media only screen and (min-width:1000px) {
+    body {
+        background: var(--primary-blue);
+    }
+
+    .order-section {
+
+        background: url(/order-summary-component-main/images/pattern-background-desktop.svg);
+        background-repeat: repeat-x;
+    }
+
+    .container {
+        width: 40vw;
+    }
+
+    .image {
+        width:40vw;
+    }
+  
+    
+
+}
+
+@media only screen and (min-width:1300px) {
+    body {
+        background: var(--primary-blue);
+    }
+
+    .order-section {
+
+        background: url(/order-summary-component-main/images/pattern-background-desktop.svg);
+        background-repeat: repeat-x;
+    }
+
+    .container {
+        width: 30vw;
+    }
+
+    .image {
+        width:30vw;
+    }
+  
+    
+
+}
+
+@media only screen and (min-width:1600px) {
+    
+    body {
+        background: var(--primary-blue);
+    }
+
+    .order-section {
+
+        background: url(/order-summary-component-main/images/pattern-background-desktop.svg);
+        background-repeat: repeat-x;
+    }
+
+    .container {
+        width: 21vw;
+        
+    }
+
+    .image {
+        width:21vw;
+    }
+  
+    
+
+}
+
+
+
+
+
